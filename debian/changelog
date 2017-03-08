@@ -1,0 +1,56 @@
+coserver4 (5.1.2-1) unstable; urgency=low
+
+  * use default coserver4 port if not specified in url
+  * listen on address specified in url
+
+ -- Alexander Bürger <alexander.buerger@met.no>  Tue, 25 Oct 2016 08:00:08 +0100
+
+coserver4 (5.1.1-1) unstable; urgency=low
+
+  * treat qmstrings::default_id like "all"
+
+ -- Alexander Bürger <alexander.buerger@met.no>  Mon, 22 Aug 2016 08:00:08 +0100
+
+coserver4 (5.1.0-1) unstable; urgency=low
+
+  * added command to stop server
+
+ -- Alexander Bürger <alexander.buerger@met.no>  Fri, 11 Mar 2016 08:00:08 +0100
+
+coserver4 (5.0.1-1) unstable; urgency=low
+
+  * update man page
+  * disable tests in package
+
+ -- Alexander Bürger <alexander.buerger@met.no>  Mon, 4 Jan 2016 09:00:09 +0100
+
+coserver4 (5.0.0-2) unstable; urgency=low
+
+  * build-depend on google-mock
+
+ -- Alexander Bürger <alexander.buerger@met.no>  Mon, 4 Jan 2016 09:00:09 +0100
+
+coserver4 (5.0.0-1) unstable; urgency=low
+
+  * use new metlibs/coserver library
+  * handle peer lists
+
+ -- Alexander Bürger <alexander.buerger@met.no>  Thu, 17 Dec 2015 09:00:09 +0100
+
+coserver4 (4.4.0-1) unstable; urgency=low
+
+  * do not broadcast without userid
+
+ -- Alexander Bürger <alexander.buerger@met.no>  Mon, 30 Nov 2015 09:00:09 +0100
+
+coserver4 (4.3.3-1) unstable; urgency=low
+
+  * compile with new metlibs
+
+ -- Alexander Bürger <alexander.buerger@met.no>  Mon, 11 Feb 2013 12:34:46 +0100
+
+coserver4 (4.3.2-ubuntu1) lucid; urgency=low
+
+  * Fixing dependencies
+
+ -- Lisbeth Bergholt <lisbethb@eurus10.met.no>  Mon, 18 Oct 2010 13:56:47 +0200
